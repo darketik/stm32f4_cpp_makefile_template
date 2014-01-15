@@ -1,0 +1,1 @@
+-include $(wildcard $(LOCPATH)/*/module.mk)

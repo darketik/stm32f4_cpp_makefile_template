@@ -24,18 +24,17 @@
 
 #TODO compile *.o|d into build folder
 #TODO change Makefile structure to recursive makefile calls, use of VPATH, ...
-#TODO change implicit rules into static pattern rules for compilation
 
 # -----------------------------------------------------------------------------
 #  Project configuration
 # -----------------------------------------------------------------------------
 # System specifications
 F_CRYSTAL      			= 8000000L
-F_CPU          			= 72000000L
-SYSCLOCK       			= SYSCLK_FREQ_72MHz
+#+ F_CPU          			= 72000000L
+#+ SYSCLOCK       			= SYSCLK_FREQ_72MHz
 FLASH_BASE_ADDRESS	= 0x08000000
 
-APPLICATION    			= FALSE
+#+ APPLICATION    			= FALSE
 
 # Packages to build
 TARGET         			= stm32f4_cpp_makefile_template
